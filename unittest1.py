@@ -11,7 +11,7 @@ def test2floating ():
 	assert (Jawad_placeholder(-4,2),0)
 
 def test3string ():
-	assert (Jawad_placeholder('word',3),'value error')
+	assert (Jawad_placeholder('word',3),'NaN')
 
 
 
