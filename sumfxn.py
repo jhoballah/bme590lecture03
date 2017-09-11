@@ -1,17 +1,24 @@
-import numpy
+# import numpy
 import sys
+import sumfxn
+
 # import ipython
 # import pytest
 # import pytest-cov
 # import pytest-pep8
+
+
 
 """
 
 Sums two numbers (positive or negative, decimals allowed)
 
 """
+
+
 class NotEnoughArguments(TypeError):
     """ Raised when the number of arguments is invalid"""
+
 
 class NotNumberError(ValueError):
     """ Raised when the input is not a number """
